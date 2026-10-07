@@ -1,0 +1,41 @@
+{
+  "server": {
+    "host": "play.example.com",
+    "port": 25565,
+    "version": "1.21.11"
+  },
+
+  "account": {
+    "username": "AnnouncementBot",
+    "password": "CHANGE_ME",
+    "loginDelay": 5000
+  },
+
+  "portals": {
+    "enabled": true,
+    "beforeWalkDelay": 3000,
+    "firstWalkTime": 10000,
+    "betweenPortalsDelay": 3000,
+    "secondWalkTime": 10000,
+    "afterPortalsDelay": 5000
+  },
+
+  "antiAfk": {
+    "enabled": true,
+    "interval": 60000,
+    "jump": true,
+    "lookAround": true,
+    "move": true
+  },
+
+  "announcements": [
+    {
+      "message": "Welcome to our Minecraft server!",
+      "interval": 300000
+    },
+    {
+      "message": "Join our Discord community!",
+      "interval": 600000
+    }
+  ]
+}
